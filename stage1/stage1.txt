@@ -1,0 +1,63 @@
+Once we downloaded the image "zN4h51m.jpg", we can quickly use "strings", which is a linux software used to show the strings inside of a file (any file)
+
+--> ~$ strings zN4h51.jpg
+
+We don't see anything really interesting at first, but the very last strings says this: 
+
+--> TIBERIVS CLAVDIVS CAESAR says "lxxt>33m2mqkyv2gsq3q=w]O2ntk"
+
+Obviously, the string between the "" is encrypted by a Caesar cipher. We just have to know what shift has been used. 
+Let's try with every shift and compare what we get: 
+
++5	gsso>33h2hlftq2bnl3l=r]J2iof
++8	dppl>33e2eicqn2yki3i=o]G2flc
++6	frrn>33g2gkesp2amk3k=q]I2hne
++19	seea>33t2txrfc2nzx3x=d]V2uar
++4	http>33i2imgur2com3m=s]K2jpg
++2	jvvr>33k2koiwt2eqo3o=u]M2lri
++10	bnnj>33c2cgaol2wig3g=m]E2dja
++21	qccy>33r2rvpda2lxv3v=b]T2syp
++12	zllh>33a2aeymj2uge3e=k]C2bhy
++18	tffb>33u2uysgd2oay3y=e]W2vbs
++24	nzzv>33o2osmax2ius3s=y]Q2pvm
++23	oaaw>33p2ptnby2jvt3t=z]R2qwn
++15	wiie>33x2xbvjg2rdb3b=h]Z2yev
++11	ammi>33b2bfznk2vhf3f=l]D2ciz
++3	iuuq>33j2jnhvs2dpn3n=t]L2kqh
++20	rddz>33s2swqeb2myw3w=c]U2tzq
++16	vhhd>33w2wauif2qca3a=g]Y2xdu
++25	myyu>33n2nrlzw2htr3r=x]P2oul
++17	uggc>33v2vzthe2pbz3z=f]X2wct
++7	eqqm>33f2fjdro2zlj3j=p]H2gmd
++22	pbbx>33q2quocz2kwu3u=a]S2rxo
++9	cook>33d2dhbpm2xjh3h=n]F2ekb
++14	xjjf>33y2ycwkh2sec3c=i]A2zfw
++1	kwws>33l2lpjxu2frp3p=v]N2msj
++13	ykkg>33z2zdxli2tfd3d=j]B2agx
+
+the +4 looks more accurate than the others, the one that looks like an imgur link. Imgur is a website where poeple can host their images for free. 
++5	gsso>33h2hlftq2bnl3l=r]J2iof
++8	dppl>33e2eicqn2yki3i=o]G2flc
++6	frrn>33g2gkesp2amk3k=q]I2hne
++19	seea>33t2txrfc2nzx3x=d]V2uar
++4	http>33i2imgur2com3m=s]K2jpg
++2	jvvr>33k2koiwt2eqo3o=u]M2lri
++10	bnnj>33c2cgaol2wig3g=m]E2dja
++21	qccy>33r2rvpda2lxv3v=b]T2syp
++12	zllh>33a2aeymj2uge3e=k]C2bhy
++18	tffb>33u2uysgd2oay3y=e]W2vbs
++24	nzzv>33o2osmax2ius3s=y]Q2pvm
++23	oaaw>33p2ptnby2jvt3t=z]R2qwn
++15	wiie>33x2xbvjg2rdb3b=h]Z2yev
++11	ammi>33b2bfznk2vhf3f=l]D2ciz
++3	iuuq>33j2jnhvs2dpn3n=t]L2kqh
++20	rddz>33s2swqeb2myw3w=c]U2tzq
++16	vhhd>33w2wauif2qca3a=g]Y2xdu
++25	myyu>33n2nrlzw2htr3r=x]P2oul
++17	uggc>33v2vzthe2pbz3z=f]X2wct
++7	eqqm>33f2fjdro2zlj3j=p]H2gmd
++22	pbbx>33q2quocz2kwu3u=a]S2rxo
++9	cook>33d2dhbpm2xjh3h=n]F2ekb
+ 
+
+
